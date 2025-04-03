@@ -8,7 +8,7 @@ import WeatherLayer from './weatherlayer'
 function CombineLayer() {
   return (
     <Box component='div'> 
-        <LayersControl position='topright'>
+        <LayersControl options={{ position: "topright" }} >
             <LayersControl.Overlay name='Thailand_border' checked>
                 <ThaiBorder />
             </LayersControl.Overlay>
